@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Neon Matrix Blocks</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+  <h1>Neon Matrix</h1>
+
+  <div class="top-bar">
+    <div>Score: <span id="score">0</span></div>
+    <div>Level: <span id="level">1</span></div>
+  </div>
+
+  <div id="grid"></div>
+  
+    <div class="mobile-controls">
+        <button onclick="moveLeft()">⬅️</button>
+        <button onclick="rotate()">🔄</button>
+        <button onclick="moveRight()">➡️</button>
+        <button onclick="moveDown()">⬇️</button>
+    </div>
+
+  <div class="controls">
+    <button id="start">Start</button>
+    <button id="pause">Pause</button>
+  </div>
+  
+  <button id="restartBtn">Restart Game</button>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
